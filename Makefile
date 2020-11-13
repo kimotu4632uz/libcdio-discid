@@ -1,0 +1,3 @@
+LDLIBS := -lwinmm
+
+cdio-discid:
