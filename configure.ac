@@ -12,7 +12,8 @@ AC_PROG_CC
 
 # Checks for libraries.
 PKG_CHECK_MODULES(LIBCDIO, libcdio >= 2.0.0, [], [AC_MSG_ERROR(Required libcdio library not found. Please get libcdio from http://www.gnu.org/software/libcdio/ and install it.)])
-
+AC_SUBST(LIBCDIO_LIBS)
+AC_SUBST(LIBCDIO_CFLAGS)
 
 # Checks for header files.
 AC_CHECK_HEADERS([inttypes.h])
