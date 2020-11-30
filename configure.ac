@@ -3,7 +3,7 @@
 
 AC_PREREQ([2.69])
 AC_INIT(libcdio-discid, 1.0.0, no-define)
-AM_INIT_AUTOMAKE(libcdio-discid, 1.0.0, no-define)
+AM_INIT_AUTOMAKE([foreign])
 AC_CONFIG_SRCDIR([cdio-discid.c])
 AC_CONFIG_HEADERS([config.h])
 
@@ -22,4 +22,5 @@ AC_TYPE_UINT32_T
 
 # Checks for library functions.
 
+AC_CONFIG_FILES([Makefile])
 AC_OUTPUT
