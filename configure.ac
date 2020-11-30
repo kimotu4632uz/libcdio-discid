@@ -7,6 +7,9 @@ AM_INIT_AUTOMAKE([foreign])
 AC_CONFIG_SRCDIR([cdio-discid.c])
 AC_CONFIG_HEADERS([config.h])
 
+AM_PROG_LIBTOOL
+AC_LIBTOOL_WIN32_DLL
+
 # Checks for programs.
 AC_PROG_CC
 
