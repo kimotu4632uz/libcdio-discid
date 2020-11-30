@@ -1,4 +1,4 @@
-#!/bin/bas
+#!/bin/bash
 
 autoreconf -f -i
 if [ $? -ne 0 ]; then
