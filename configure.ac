@@ -3,7 +3,7 @@
 
 AC_PREREQ([2.69])
 AC_INIT(libcdio-discid, 1.0.0, no-define)
-AN_INIT_AUTOMAKE(libcdio-discid, 1.0.0, no-define)
+AM_INIT_AUTOMAKE(libcdio-discid, 1.0.0, no-define)
 AC_CONFIG_SRCDIR([cdio-discid.c])
 AC_CONFIG_HEADERS([config.h])
 
